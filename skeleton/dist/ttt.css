@@ -1,0 +1,56 @@
+.li-class{
+  width:90px;
+  height:90px;
+  border: 5px solid black;
+  background-color: gray;
+  list-style-type: none;
+
+
+}
+.li-class:hover{
+  background-color: yellow;
+}
+.x,.o {
+  background: white;
+  cursor: default;
+  background: url("../src/pic.jpg");
+  background-size: 80px 80px;
+}
+
+
+.x:hover,
+.o:hover {
+  background: white;
+}
+
+.x:after,
+.o:after {
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.x:after {
+  content: "x";
+}
+
+.o:after {
+  content: "o";
+}
+
+.game-over li {
+  color: red;
+  cursor: default;
+  background: white;
+}
+
+.winner-x .x,
+.winner-o .o {
+  background: blue;
+  color: white;
+}
+
+figcaption {
+  font-size: 30px;
+}
