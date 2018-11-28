@@ -49,6 +49,8 @@
 .winner-o .o {
   background: blue;
   color: white;
+  background: url("../src/gif.gif");
+  background-size: 80px 80px;
 }
 
 figcaption {
